@@ -1,0 +1,3 @@
+cd nodeServer 
+ >> npm init
+ >> npm i sokect.io

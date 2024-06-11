@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigeon Chat - Free to chat here</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="logos/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class = "logo"src="logos/logob.png" alt="">
+            <span>Pigeon Chat</span>
+        </nav>
+    </header>
+    <div class="wholeContainer">
+        <div class="container"></div>
+        <!-- <div class="message left">hello sir!</div>
+        <div class="message right">hello</div> -->
+        
+        <div class = "send">
+            <form action="#" id="send-container">
+                <input type="text" name="submit" class="text" id = "messageInp">
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </div>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="JS\client.js"></script>
+</body>
+</html>

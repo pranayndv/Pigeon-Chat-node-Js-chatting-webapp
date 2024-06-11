@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(213, 191, 213);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px 0;
+
+}
+
+.navbar span {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.logo {
+    width: 70px;
+}
+
+.wholeContainer {
+    position: relative;
+    display: block;
+    margin: auto;
+    background-color: rgb(66, 2, 79);
+    width: 57vw;
+    height: 80vh;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container {
+    width: 55vw;
+    height: 71vh;
+    background-color: rgb(66, 2, 79);
+    margin: auto;
+    overflow-y: auto;
+    display: block;
+    padding: 5px;
+}
+
+.message {
+    background-color: rgb(215, 202, 228);
+    width: 360px;
+    height: 34px;
+    margin: 5px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.join {
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.left {
+    padding: 3px;
+    clear: both;
+    float: left;
+}
+
+.right {
+    clear: both;
+    float: right;
+    padding: 3px;
+}
+.send{
+   display: flex;
+   justify-content: center;
+}
+#send-container {
+    position: static;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    max-width: 38vw;
+    width: 51vw;
+    height: 36px;
+    margin: 17px 0;
+    outline: none;
+    border-radius: 65px;
+    padding: 0 13px;
+
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    width: 73px;
+    height: 39px;
+    border-radius: 34px;
+    border: none;
+}
+.btn:hover {
+    background-color: rgb(73, 72, 72);
+}
+
+@media screen and (max-width:532px){
+    .wholeContainer {
+        position: relative;
+        display: block;
+        margin: auto;
+        background-color: rgb(66, 2, 79);
+        width: 80vw;
+        height: 84vh;
+        padding: 5px;
+        border-radius: 8px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+    
+}
